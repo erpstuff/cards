@@ -164,7 +164,7 @@ For issues, questions, or feature requests:
 
 ## License
 
-Created by Sikandar Ali (ERPStuff.com)
+Created by Malik Sikandar Hayat (ERPStuff.com)
 Oracle ACE Pro
 
 ## Credits
