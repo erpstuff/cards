@@ -1,33 +1,33 @@
 {
-  "name" : "Dashboard Cards",
-  "version" : "1.0",
-  "description" : "Create nice cards with this template component plugin.",
-  "keywords" : ["APEX", "TEMPLATE_COMPONENT", "CARDS"],
-  "homepage" : "https://github.com/erpstuff/cards",
-  "bugs" : {
-    "url" : "https://github.com/erpstuff/cards/issues/",
-    "email" : "sikandar.awan@gmail.com"
+  "name": "Dashboard Cards",
+  "version": "1.0.0",
+  "description": "Create nice cards with this template component plugin.",
+  "keywords": ["APEX", "TEMPLATE_COMPONENT", "CARDS"],
+  "homepage": "https://github.com/erpstuff/cards",
+  "bugs": {
+    "url": "https://github.com/erpstuff/cards/issues/",
+    "email": "sikandar.awan@gmail.com"
   },
-  "license" : "MIT",
-  "author" : {
-    "name" : "Malik Sikandar Hayat",
-    "email" : "sikandar.awan@gmail.com",
-    "url" : "",
-    "donationUrl" : ""
+  "license": "MIT",
+  "author": {
+    "name": "Malik Sikandar Hayat",
+    "email": "sikandar.awan@gmail.com",
+    "url": "",
+    "donationUrl": ""
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/erpstuff/cards"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erpstuff/cards"
   },
-  "oracle" : {
-    "versions" : [""19.0.0.0","21.0.0.0"],
-    "apex" : {
-      "versions" : ["24.2"],
-      "plugin" : {
-        "internalName" : "ERPSTUFF_CARDS",
-        "type" : "template component",
-        "demo" : "",
-        "previewImage" : "https://github.com/erpstuff/cards/blob/main/ERPstuff_Cards.png"
+  "oracle": {
+    "versions": ["19.0.0.0", "21.0.0.0"],
+    "apex": {
+      "versions": ["24.2"],
+      "plugin": {
+        "internalName": "ERPSTUFF_CARDS",
+        "type": "template component",
+        "demo": "",
+        "previewImage": "https://raw.githubusercontent.com/erpstuff/cards/main/ERPstuff_Cards.png"
       }
     }
   }
