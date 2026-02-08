@@ -2,10 +2,16 @@
   "name": "Dashboard Cards",
   "version": "1.0",
   "description": "Create responsive dashboard cards using an Oracle APEX template component plugin.",
-  "keywords": ["dashboard", "cards", "apex", "template", "ui"],
+  "keywords": [
+    "dashboard",
+    "cards",
+    "apex",
+    "template",
+    "ui"
+  ],
   "homepage": "https://github.com/erpstuff/cards",
   "bugs": {
-    "url": "https://github.com/erpstuff/cards/issues/",
+    "url": "https://github.com/erpstuff/cards/issues",
     "email": "sikandar.awan@gmail.com"
   },
   "license": "MIT",
@@ -20,9 +26,14 @@
     "url": "https://github.com/erpstuff/cards.git"
   },
   "oracle": {
-    "versions": ["19.0.0.0", "21.0.0.0"],
+    "versions": [
+      "19.0.0.0",
+      "21.0.0.0"
+    ],
     "apex": {
-      "versions": ["24.2"],
+      "versions": [
+        "24.2"
+      ],
       "plugin": {
         "internalName": "ERPSTUFF.CARDS",
         "type": "template component",
