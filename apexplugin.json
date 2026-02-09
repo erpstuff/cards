@@ -2,7 +2,7 @@
 	"name": "ERPstuff Cards",
 	"version": "1.0.0",
 	"description": "An Oracle APEX Region Plugin that delivers a fully dynamic performance dashboard with responsive charts, animated progress bars, and optional image support for each data item—perfect for showcasing team performance, sales trends, KPIs, or any value-based metrics in a visually rich and interactive format",
-	"keywords" : ["guide", "tour", "shepherd", "firstrun"],
+	"keywords" : ["APEX", "CARDS", "DASHBOARD", "KPI", "REGION"],
 	"homepage": "https://github.com/erpstuff/cards",
 	"bugs": {
 		"url": "https://github.com/erpstuff/cards/issues",
@@ -27,7 +27,7 @@
 			],
 			"plugin": {
 				"internalName": "ERPSTUFF_CARDS",
-				"type": "template component",
+				"type": "region"
 				"demo": "https://oracleapex.com/ords/r/erpstuffords/uat-tickets/home",
 				"previewImage": "https://raw.githubusercontent.com/erpstuff/cards/main/ERPstuff_Cards.png"
 			}
