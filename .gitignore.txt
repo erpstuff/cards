@@ -1,0 +1,37 @@
+# Git Ignore File for APEX Dashboard Cards Plug-in
+
+# APEX Export Files (generated)
+*.log
+*.tmp
+
+# Editor & IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+Thumbs.db
+Desktop.ini
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Node modules (if any tooling is added later)
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Documentation builds
+docs/_build/
