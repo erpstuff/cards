@@ -1,31 +1,33 @@
 {
-  "name": "ERPstuffCards",
-  "version": "1.0",
-  "description": "An Oracle APEX template component that delivers a dynamic card-based dashboard for KPIs and performance metrics.",
-  "keywords": ["APEX", "CARDS", "DASHBOARD", "KPI", "REGION"],
-  "homepage": "https://github.com/erpstuff/cards",
-  "bugs": {
-    "url": "https://github.com/erpstuff/cards/issues",
-    "email": "sikandar.awan@gmail.com"
-  },
-  "license": "MIT",
-  "commercial": "No",
-  "author": {
-    "name": "Malik Sikandar Hayat",
-    "email": "sikandar.awan@gmail.com",
-    "url": "https://www.linkedin.com/in/erpstuff"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/erpstuff/cards.git"
-  },
-  "oracle": {
-    "apex": {
-      "plugin": {
-        "internalName": "ERPSTUFF_CARDS",
-        "type": "template component",
-        "previewImage": "https://raw.githubusercontent.com/erpstuff/cards/refs/heads/main/ERPstuff_Cards.png"
-      }
-    }
-  }
+	"name": "ERPstuffCards",
+	"version": "1.0",
+	"description": "An Oracle APEX Region Plugin that delivers a fully dynamic performance dashboard with responsive charts, animated progress bars, and optional image support for each data item—perfect for showcasing team performance, sales trends, KPIs, or any value-based metrics in a visually rich and interactive format",
+	"keywords" : ["APEX", "CARDS", "DASHBOARD", "KPI", "REGION"],
+	"homepage": "https://github.com/erpstuff/cards",
+	"bugs": {
+		"url": "https://github.com/erpstuff/cards/issues",
+		"email": "sikandar.awan@gmail.com"
+	},
+	"license": "MIT",
+	"commercial": "No",
+	"author": {
+		"name": "Malik Sikandar Hayat",
+		"email": "sikandar.awan@gmail.com",
+		"url": "https://www.linkedin.com/in/erpstuff"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/erpstuff/cards.git"
+	},
+	"oracle": {
+		"versions": ["19c","21c"],
+		"apex": {
+			"versions": ["24.2.13"],
+			"plugin": {
+				"internalName": "ERPSTUFF_CARDS",
+        "type" : "template component",
+				"previewImage": "https://raw.githubusercontent.com/erpstuff/cards/refs/heads/main/ERPstuff_Cards.png"
+			}
+		}
+	}
 }
