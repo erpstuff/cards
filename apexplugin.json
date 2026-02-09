@@ -20,11 +20,11 @@
 		"url": "https://github.com/erpstuff/cards.git"
 	},
  "oracle" : {
-    "versions" : ["11.2.0.1", "12.1.0.1"],
+"versions": ["19c", "21c"],
     "apex" : {
       "versions": ["24.2"],
       "plugin" : {
-        "internalName" : "DE.DANIELH.GT.NEWINSTANCE",
+        "internalName" : "ERPSTUFF_CARDS",
 		"type": "template component",
         "demo" : "https://gd481884d8f7c1c-zmsapexdb1.adb.me-jeddah-1.oraclecloudapps.com/ords/r/zmsws/js-sample-app2/home?session=1204949269283112"
        
