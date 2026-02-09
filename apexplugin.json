@@ -1,34 +1,34 @@
 {
-  "name" : "GuidedTour",
-  "version" : "1.0",
-  "description" : "It´s useful to guide your users through the application, or give your users a first run wizard to explain parts of your app.",
-  "keywords" : ["guide", "tour", "shepherd", "firstrun"],
-  "homepage" : "https://github.com/Dani3lSun/apex-plugin-guidedtour",
-  "bugs" : {
-    "url" : "https://github.com/Dani3lSun/apex-plugin-guidedtour/issues",
-    "email" : "daniel@danielh.de"
-  },
-  "license" : "MIT",
-  "commercial" : "No",
-  "author" : {
-    "name" : "Daniel Hochleitner",
-    "email" : "daniel@danielh.de",
-    "url" : "http://blog.danielh.de/"
-  },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Dani3lSun/apex-plugin-guidedtour.git"
-  },
- "oracle" : {
-    "versions" : ["11.2.0.1", "12.1.0.1"],
-    "apex" : {
-      "versions" : ["5.0.0"],
-      "plugin" : {
-        "internalName" : "DE.DANIELH.GT.NEWINSTANCE",
-        "type" : "dynamic action",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=57743:1",
-        "previewImage" : "https://raw.githubusercontent.com/Dani3lSun/apex-plugin-guidedtour/master/preview.png"
-      }
-    }
-  }
+	"name": "ERPstuffCards",
+	"version": "1.0",
+	"description": "An Oracle APEX Region Plugin that delivers a fully dynamic performance dashboard with responsive charts, animated progress bars, and optional image support for each data item—perfect for showcasing team performance, sales trends, KPIs, or any value-based metrics in a visually rich and interactive format",
+	"keywords" : ["APEX", "CARDS", "DASHBOARD", "KPI", "REGION"]
+	"homepage": "https://github.com/erpstuff/cards",
+	"bugs": {
+		"url": "https://github.com/erpstuff/cards/issues",
+		"email": "sikandar.awan@gmail.com"
+	},
+	"license": "MIT",
+	"commercial": "No",
+	"author": {
+		"name": "Malik Sikandar Hayat",
+		"email": "sikandar.awan@gmail.com",
+		"url": "https://www.linkedin.com/in/erpstuff"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/erpstuff/cards.git"
+	},
+	"oracle": {
+		"versions": ["19c","21c"],
+		"apex": {
+			"versions": ["24.2.13"],
+			"plugin": {
+				"internalName": "ERPSTUFF_CARDS",
+        "type" : "template component",
+				"demo": "https://oracleapex.com/ords/r/erpstuffords/uat-tickets/login",
+				"previewImage": "https://raw.githubusercontent.com/erpstuff/cards/refs/heads/main/ERPstuff_Cards.png"
+			}
+		}
+	}
 }
