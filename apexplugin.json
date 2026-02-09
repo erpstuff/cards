@@ -1,20 +1,33 @@
 {
-  "name": "Dashboard Cards",
-  "version": "1.0",
-  "description": "Dashboard cards template component for Oracle APEX",
-  "keywords": ["apex", "cards", "dashboard"],
+  "name": "Dashboard with  Chart and Cards",
+  "version": "1.0.0",
+  "description": "An Oracle APEX Region Plugin that delivers a fully dynamic performance dashboard with responsive charts, animated progress bars, and optional image support for each data item—perfect for showcasing team performance, sales trends, KPIs, or any value-based metrics in a visually rich and interactive format",
+  "keywords": ["dashboard", "team performance", "chart", "progress bar", "region", "visualization", "apex","plugin","card","CARD","PLUGIN","DASHBOARD"],
+  "homepage": "https://github.com/erpstuff/cards",
+  "bugs": {
+    "url": "https://github.com/erpstuff/cards/issues",
+    "email": "sikandar.awan@gmail.com"
+  },
   "license": "MIT",
   "commercial": "No",
   "author": {
     "name": "Malik Sikandar Hayat",
-    "email": "sikandar.awan@gmail.com"
+    "email": "sikandar.awan@gmail.com",
+    "url": "www.linkedin.com/in/erpstuff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:erpstuff/cards.git"
   },
   "oracle": {
+    "versions": ["19c", "21c"],
     "apex": {
       "versions": ["24.2"],
       "plugin": {
-        "internalName": "ERPSTUFF_CARDS",
+		"internalName": "ERPSTUFF_CARDS",
         "type": "template component"
+        "demo": "NA",
+        "previewImage": "https://github.com/erpstuff/cards/blob/main/ERPstuff_Cards.png"
       }
     }
   }
