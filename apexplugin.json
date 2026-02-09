@@ -1,5 +1,5 @@
 {
-	"name": "ERPstuffCards",
+	"name": "ERPstuff_Cards",
 	"version": "1.0",
 	"description": "An Oracle APEX Region Plugin that delivers a fully dynamic performance dashboard with responsive charts, animated progress bars, and optional image support for each data item—perfect for showcasing team performance, sales trends, KPIs, or any value-based metrics in a visually rich and interactive format",
 	"keywords" : ["APEX", "CARDS", "DASHBOARD", "KPI", "REGION"],
