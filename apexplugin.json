@@ -27,7 +27,7 @@
 				"internalName": "ERPSTUFF_CARDS",
         "type" : "template component",
 				"demo": "https://oracleapex.com/ords/r/erpstuffords/uat-tickets/home",
-				"previewImage": "https://raw.githubusercontent.com/erpstuff/cards/main/ERPstuff_Cards.png"
+				"previewImage": "https://raw.githubusercontent.com/erpstuff/cards/refs/heads/main/ERPstuff_Cards.png"
 			}
 		}
 	}
