@@ -20,7 +20,7 @@
 		"url": "https://github.com/erpstuff/cards.git"
 	},
 	"oracle": {
-		"versions": ["19c","21c"],
+"versions": ["12.2.0.1", "19.0.0.0"]
 		"apex": {
 			"versions": ["24.2.13"],
 			"plugin": {
