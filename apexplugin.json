@@ -25,8 +25,8 @@
       "versions" : ["5.0.0"],
       "plugin" : {
         "internalName" : "DE.DANIELH.GT.NEWINSTANCE",
-        "type" : "dynamic action",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=57743:1",
+		"type": "template component",
+        "demo" : "https://oracleapex.com/ords/r/erpstuffords/uat-tickets/dashboard?session=16807615414657&tz=5:00",
         "previewImage": "https://raw.githubusercontent.com/erpstuff/cards/refs/heads/main/ERPstuff_Cards.png"
       }
     }
