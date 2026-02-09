@@ -26,7 +26,7 @@
       "plugin" : {
         "internalName" : "DE.DANIELH.GT.NEWINSTANCE",
 		"type": "template component",
-        "demo" : "https://oracleapex.com/ords/r/erpstuffords/uat-tickets/dashboard?session=16807615414657&tz=5:00",
+        "demo" : "https://gd481884d8f7c1c-zmsapexdb1.adb.me-jeddah-1.oraclecloudapps.com/ords/r/zmsws/js-sample-app2/home?session=1204949269283112",
         "previewImage": "https://raw.githubusercontent.com/erpstuff/cards/refs/heads/main/ERPstuff_Cards.png"
       }
     }
